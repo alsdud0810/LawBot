@@ -16,6 +16,8 @@ def test_chat_schema_and_language() -> None:
     response = client.post("/api/v1/chat", json={"question": "임금 체불은 어떻게 해야 하나요?", "language": "ko"})
     assert response.status_code == 200
     body = response.json()
+    assert response.headers["content-type"] == "application/json; charset=utf-8"
+    assert "공식" in response.content.decode("utf-8")
     assert body["language"] == "ko"
     assert "answer" in body
     assert body["retrieval"]["top_k"] == 0
