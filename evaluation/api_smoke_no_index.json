@@ -1,0 +1,28 @@
+{
+  "health": {
+    "status": "ok"
+  },
+  "chat": [
+    {
+      "answer": "현재 확보된 공식 자료만으로는 해당 질문에 대한 충분한 근거를 확인하기 어렵습니다. 필요한 경우 공식 기관이나 법률 전문가에게 상담받으세요.",
+      "language": "ko",
+      "sources": [],
+      "retrieval": {
+        "top_k": 0,
+        "max_score": null
+      }
+    },
+    {
+      "answer": "I could not find sufficient support in the indexed official sources. Please consult an official agency or qualified legal professional when necessary.",
+      "language": "en",
+      "sources": [],
+      "retrieval": {
+        "top_k": 0,
+        "max_score": null
+      }
+    }
+  ],
+  "index": "data/vector_index",
+  "generator": "DeterministicGenerator (no paid LLM)",
+  "http_verified": true
+}

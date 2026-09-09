@@ -1,0 +1,179 @@
+[
+  {
+    "id": "kb_001",
+    "question_ko": "퇴직한 뒤 임금과 모든 금품은 언제까지 받아야 하나요?",
+    "question_en": "By when must wages and other payments be paid after retirement?",
+    "expected_document": "근로기준법",
+    "expected_article": "제36조"
+  },
+  {
+    "id": "kb_002",
+    "question_ko": "임금은 한 달에 몇 번 이상 정해진 날에 지급해야 하나요?",
+    "question_en": "How often must wages be paid on a fixed date each month?",
+    "expected_document": "근로기준법",
+    "expected_article": "제43조"
+  },
+  {
+    "id": "kb_003",
+    "question_ko": "주당 법정 근로시간은 몇 시간인가요?",
+    "question_en": "What is the statutory weekly working-hour limit?",
+    "expected_document": "근로기준법",
+    "expected_article": "제50조"
+  },
+  {
+    "id": "kb_004",
+    "question_ko": "하루 근로시간은 몇 시간을 초과할 수 없나요?",
+    "question_en": "What is the daily working-hour limit?",
+    "expected_document": "근로기준법",
+    "expected_article": "제50조"
+  },
+  {
+    "id": "kb_005",
+    "question_ko": "연장근로에는 임금을 얼마나 가산해야 하나요?",
+    "question_en": "What premium applies to overtime work?",
+    "expected_document": "근로기준법",
+    "expected_article": "제56조"
+  },
+  {
+    "id": "kb_006",
+    "question_ko": "1년간 80퍼센트 이상 출근하면 연차휴가는 며칠인가요?",
+    "question_en": "How many annual paid-leave days follow 80 percent attendance for one year?",
+    "expected_document": "근로기준법",
+    "expected_article": "제60조"
+  },
+  {
+    "id": "kb_007",
+    "question_ko": "부당해고 구제신청은 언제까지 해야 하나요?",
+    "question_en": "What is the deadline to request remedy for unfair dismissal?",
+    "expected_document": "근로기준법",
+    "expected_article": "제28조"
+  },
+  {
+    "id": "kb_008",
+    "question_ko": "해고할 때 사유와 시기를 서면으로 알려야 하나요?",
+    "question_en": "Must dismissal reasons and timing be given in writing?",
+    "expected_document": "근로기준법",
+    "expected_article": "제27조"
+  },
+  {
+    "id": "kb_009",
+    "question_ko": "사용자는 정당한 이유 없이 해고할 수 있나요?",
+    "question_en": "Can an employer dismiss a worker without just cause?",
+    "expected_document": "근로기준법",
+    "expected_article": "제23조"
+  },
+  {
+    "id": "kb_010",
+    "question_ko": "직장 내 괴롭힘을 알게 되면 누구에게 신고할 수 있나요?",
+    "question_en": "Who can receive a report of workplace harassment?",
+    "expected_document": "근로기준법",
+    "expected_article": "제76조의3"
+  },
+  {
+    "id": "kb_011",
+    "question_ko": "사용자는 직장 내 괴롭힘 신고를 조사해야 하나요?",
+    "question_en": "Must an employer investigate a workplace harassment report?",
+    "expected_document": "근로기준법",
+    "expected_article": "제76조의3"
+  },
+  {
+    "id": "kb_012",
+    "question_ko": "근로조건을 계약서에 서면으로 명시해야 하나요?",
+    "question_en": "Must working conditions be stated in writing in the contract?",
+    "expected_document": "근로기준법",
+    "expected_article": "제17조"
+  },
+  {
+    "id": "kb_013",
+    "question_ko": "4시간 근로하면 휴게시간을 얼마나 받아야 하나요?",
+    "question_en": "How much break time is required after four hours of work?",
+    "expected_document": "근로기준법",
+    "expected_article": "제54조"
+  },
+  {
+    "id": "kb_014",
+    "question_ko": "사용자 귀책으로 휴업하면 휴업수당은 얼마인가요?",
+    "question_en": "What allowance applies when work is suspended for an employer's reason?",
+    "expected_document": "근로기준법",
+    "expected_article": "제46조"
+  },
+  {
+    "id": "kb_015",
+    "question_ko": "사업주는 산업재해 예방을 위해 어떤 안전조치를 해야 하나요?",
+    "question_en": "What safety measures must an employer take to prevent occupational accidents?",
+    "expected_document": "산업안전보건법",
+    "expected_article": "제38조"
+  },
+  {
+    "id": "kb_016",
+    "question_ko": "산업재해가 발생하면 작업을 중지하고 대피할 수 있나요?",
+    "question_en": "Can workers stop work and evacuate during an imminent accident risk?",
+    "expected_document": "산업안전보건법",
+    "expected_article": "제52조"
+  },
+  {
+    "id": "kb_017",
+    "question_ko": "사업주는 근로자에게 정기 안전보건교육을 해야 하나요?",
+    "question_en": "Must an employer provide regular safety and health education?",
+    "expected_document": "산업안전보건법",
+    "expected_article": "제29조"
+  },
+  {
+    "id": "kb_018",
+    "question_ko": "외국인근로자에게 기초안전보건교육이 필요한가요?",
+    "question_en": "Is basic safety and health education required for foreign workers?",
+    "expected_document": "산업안전보건법",
+    "expected_article": "제31조의2",
+    "answerable": false,
+    "annotation_note": "Expected article appears only in supplementary amendment applicability text, not in operative articles of the frozen corpus. Original target retained for audit; counted as a miss, not relabeled."
+  },
+  {
+    "id": "kb_019",
+    "question_ko": "퇴직금은 계속근로 1년에 얼마를 기준으로 하나요?",
+    "question_en": "What is the severance basis for each year of continuous service?",
+    "expected_document": "근로자퇴직급여보장법",
+    "expected_article": "제8조"
+  },
+  {
+    "id": "kb_020",
+    "question_ko": "퇴직금은 퇴직 후 며칠 이내에 지급해야 하나요?",
+    "question_en": "Within how many days must severance be paid after retirement?",
+    "expected_document": "근로자퇴직급여보장법",
+    "expected_article": "제9조"
+  },
+  {
+    "id": "kb_021",
+    "question_ko": "외국인근로자라는 이유로 차별할 수 있나요?",
+    "question_en": "Can a worker be discriminated against because they are foreign?",
+    "expected_document": "외국인근로자의고용등에관한법률",
+    "expected_article": "제22조"
+  },
+  {
+    "id": "kb_022",
+    "question_ko": "외국인근로자는 어떤 경우 사업장을 변경할 수 있나요?",
+    "question_en": "When can a foreign worker change their workplace?",
+    "expected_document": "외국인근로자의고용등에관한법률",
+    "expected_article": "제25조"
+  },
+  {
+    "id": "kb_023",
+    "question_ko": "외국인근로자의 출국만기보험금은 언제 지급되나요?",
+    "question_en": "When is the departure-guarantee insurance benefit paid?",
+    "expected_document": "외국인근로자의고용등에관한법률",
+    "expected_article": "제13조"
+  },
+  {
+    "id": "kb_024",
+    "question_ko": "외국인근로자는 입국 후 취업교육을 받아야 하나요?",
+    "question_en": "Must a foreign worker receive employment training after entry?",
+    "expected_document": "외국인근로자의고용등에관한법률",
+    "expected_article": "제11조"
+  },
+  {
+    "id": "kb_025",
+    "question_ko": "근로자가 받을 임금의 정의는 무엇인가요?",
+    "question_en": "How is wage defined for a worker?",
+    "expected_document": "근로기준법",
+    "expected_article": "제2조"
+  }
+]

@@ -1,0 +1,36 @@
+.env
+.env.*
+!.env.example
+*.egg-info/
+*.faiss
+*.safetensors
+*.pt
+*.pth
+models/
+data/embedding_diagnostics/
+data/*.log
+.venv/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.py[cod]
+.vscode/
+.DS_Store
+
+# Local data and downloaded model artifacts
+data/raw/*
+data/processed/*
+data/vector_index/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/vector_index/.gitkeep
+.cache/
+.sentence_transformers/
+
+# Local analysis artifacts
+_pdf_page1.png
+_pages_*.jpg
+
+# Source presentations and local PDF material
+*.pdf
